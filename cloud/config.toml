@@ -1,0 +1,86 @@
+baseURL = 'https://sjainout.github.io/cloud/'
+languageCode = 'en-us'
+title = 'Cloud 101 Site'
+theme = "hugo-theme-techdoc"
+
+[params]
+	custom_font_color = ""
+	custom_background_color = ""
+
+	# Documentation Menu section
+	# Menu style settings
+	menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
+	
+	# Date format
+	dateformat = "" # default "2 Jan 2006"
+	# See the format reference https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+	
+	# path name excluded from documentation menu
+	menu_exclusion = [
+		"archives",
+		"archive",
+		"blog",
+		"entry",
+		"post",
+		"posts",
+	]
+
+	# Algolia site search section
+	# See https://www.algolia.com/doc/
+	algolia_search_enable = true
+	algolia_indexName = "hugo-demo-techdoc"
+	algolia_appId = "7W4SAN4PLK"
+	algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+        identifier = 'home'
+        pre = "<i class='fa fa-heart'></i>&nbsp;"
+    [[menu.main]]
+        name = "AVS Doc"
+        url = "https://https://docs.microsoft.com/en-us/azure/azure-vmware/"
+        weight = 2
+        identifier = 'avs doc'
+        pre = "<b>pre!</b> "
+
+
+# Markup configure section
+# See https://gohugo.io/getting-started/configuration-markup/
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark.renderer]
+        unsafe= true
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = false
+
+[outputs]
+    home = ["HTML", "RSS", "Algolia"]
+
+# Algolia Search configure section
+[outputFormats.Algolia]
+    baseName = "algolia"
+    mediaType = "application/json"
+    isPlainText = true
+    notAlternative = true
+
+[params.algolia]
+    vars = [
+        "title",
+        "summary",
+        "content",
+        "date",
+        "publishdate",
+        "description",
+        "permalink",
+        "keywords",
+        "lastmod",
+    ]
+    params = [
+        "tags",
+        "categories",
+    ]

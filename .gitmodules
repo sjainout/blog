@@ -1,0 +1,7 @@
+[submodule "cloud/themes/hugo-theme-techdoc"]
+	path = cloud/themes/hugo-theme-techdoc
+	url = https://github.com/thingsym/hugo-theme-techdoc.git
+[submodule "cloud/public"]
+	path = cloud/public
+	url = https://github.com/sjainout/cloud.git
+	branch = main
