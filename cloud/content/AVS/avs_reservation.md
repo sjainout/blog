@@ -61,3 +61,5 @@ Azure AVS Reserved Instance [Documentation](https://docs.microsoft.com/en-us/azu
 4. Can reservation host type be changed?
 5. Can reservation be canceled?
 
+---
+

@@ -38,13 +38,27 @@ theme = "hugo-theme-techdoc"
         url = "/"
         weight = 1
         identifier = 'home'
-        pre = "<i class='fa fa-heart'></i>&nbsp;"
+        pre = "&nbsp;"
     [[menu.main]]
         name = "AVS Doc"
-        url = "https://https://docs.microsoft.com/en-us/azure/azure-vmware/"
+        url = "https://docs.microsoft.com/en-us/azure/azure-vmware/"
         weight = 2
         identifier = 'avs doc'
-        pre = "<b>pre!</b> "
+    [[menu.main]]
+        name = "HCX Doc"
+        url = "https://docs.vmware.com/en/VMware-HCX/index.html"
+        weight = 3
+        identifier = 'hcx doc'
+    [[menu.main]]
+        name = "SRM Doc"
+        url = "https://docs.vmware.com/en/VMware-Site-Recovery/index.html"
+        weight = 4
+        identifier = 'srm doc'
+    [[menu.main]]
+        name = "About"
+        url = "about"
+        weight = 5
+        identifier = 'about'
 
 
 # Markup configure section
