@@ -9,8 +9,8 @@ TableOfContents: true
 - Protected site: On-Prem
 - Recovery site: AVS
 - DR Platform: VMware Site Recovery
-- Protected VMs: 3 On-Prem VMs replicated SRM Port Group (PG)
-- Placeholder VMs: 3 AVS placeholder VMs will be created and kept up to date
+- Protected VMs: 3 On-Prem VMs replicated in SRM Port Group (PG)
+- Placeholder VMs: 3 AVS placeholder VMs created on recovery site and kept up to date
 
 ![srm_hcx_1](http://drive.google.com/uc?export=view&id=1Um4t5JuVZD0kENd2ccPtOtNNQ167AQsD)
 

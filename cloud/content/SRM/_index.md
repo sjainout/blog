@@ -7,6 +7,7 @@ weight: 30
 ### Details
 
 - [Application DR using Same IP Architecture Options](srm_hcx_same_ip_architecture)
+- [Application DR and Backup Recovery Architecture](srm_dr_backup_architecture)
 
 ### References
 - [SRM Documentation](https://docs.vmware.com/en/VMware-Site-Recovery/index.html)
