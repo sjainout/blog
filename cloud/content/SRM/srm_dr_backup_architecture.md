@@ -5,7 +5,7 @@ weight: 30
 TableOfContents: true
 ---
 
-### High Availability, DR and Backup Steady State
+### Steady State
 
 ![ha_dr_backup_steadystate_1](http://drive.google.com/uc?export=view&id=19O5Es0A8ZKCMzRhwL-euPOcBi8876x87)
 
@@ -41,7 +41,7 @@ TableOfContents: true
 	- Storage: External (Blob)
 
 
-#### Steady State
+#### Recommended Actions
 - Deploy sufficient AVS hosts for:
 	- Tier 0 applications
 	- Tier 1 applications 
