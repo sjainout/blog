@@ -7,6 +7,7 @@ weight: 20
 ### Details
 - [AVS HCX Install](hcx_avs_install)
 - [On-prem HCX Connector Install](hcx_on_prem_download)
+- [HCX network migration](hcx_network_migrate)
 
 ### References
 - [HCX Documentation](https://docs.vmware.com/en/VMware-HCX/index.html)
