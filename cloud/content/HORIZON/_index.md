@@ -1,7 +1,6 @@
 ---
 title: "Horizon Virtual Desktop in AVS"
 date: 2023-02-27T09:19:00-05:00
-draft: true
 weight: 40
 ---
 
