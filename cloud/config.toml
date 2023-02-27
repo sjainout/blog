@@ -55,9 +55,14 @@ theme = "hugo-theme-techdoc"
         weight = 4
         identifier = 'srm doc'
     [[menu.main]]
+        name = "Horizon Doc"
+        url = "https://docs.vmware.com/en/VMware-Horizon/index.html"
+        weight = 5
+        identifier = 'horizon doc'
+    [[menu.main]]
         name = "About"
         url = "about"
-        weight = 5
+        weight = 6
         identifier = 'about'
 
 

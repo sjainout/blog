@@ -10,6 +10,7 @@ date: 2022-07-20T22:39:34-04:00
 - [AVS](avs/index.html) Azure VMware Solution (IaaS)
 - [HCX](hcx/index.html) Hybrid Cloud Extension (VM Migration)
 - [SRM](srm/index.html) Site Recovery Manager (DR)
+- [HORIZON](horizon/index.html) Horizon in AVS (VDI) 
 
 ### VMware References
 - [VMware Service Network Ports](https://ports.esp.vmware.com/) : to setup layer 4 firewall rules
