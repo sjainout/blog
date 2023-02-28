@@ -1,5 +1,5 @@
 ---
-title: "HA, DR, and Backup Architecture"
+title: "HA, DR, plus Backup Architecture"
 date: 2022-10-26T09:56:17-04:00
 weight: 30
 TableOfContents: true

@@ -1,5 +1,5 @@
 ---
-title: "DR with VMware Site Recovery (SRM)"
+title: "Disaster Recovery"
 date: 2022-07-21T11:48:08-04:00
 weight: 30
 ---

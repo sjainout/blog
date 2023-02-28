@@ -1,5 +1,5 @@
 ---
-title: "Application DR architecture keeping same IP"
+title: "Application-DR Architecture"
 date: 2022-07-26T13:20:25-04:00
 weight: 20
 TableOfContents: true
