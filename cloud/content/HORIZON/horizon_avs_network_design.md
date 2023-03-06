@@ -17,11 +17,12 @@ This post covers only the following designs:
 
 ### Horizon desktop access Internet via vNet
 
-![Horizon AVS Architecture 2](http://drive.google.com/uc?export=view&id=15YKOHxLV_GwveK-BEjGRi64MvJFW1DQc)
+![Horizon AVS Architecture 2](http://drive.google.com/uc?export=view&id=12hguLLSWgzYNhy8BacJCR43MLOtJn7GZ)
 
 AVS Network Connections:
-1. AVS to On-Prem using Express Route Global Reach
-2. AVS to Hub vNet via local Express Route circuit
+1. On-prem to Azure region using WAN Express Route
+2. AVS to On-Prem using Express Route Global Reach
+3. AVS to Hub vNet via local Express Route circuit
 
 Azure Network Connections:
 1. On-Prem to Azure region using WAN Express Route terminating in Hub vNet
@@ -38,6 +39,9 @@ Azure Hub vNet details:
 7. vNet peering connection to Infrastructure shared services vNet
 
 Traffic flows:
+
+![Horizon AVS Flows 1](http://drive.google.com/uc?export=view&id=1jgRzs6QQZm0l7ei9nYMZw4cNtF37OTdc)
+
 1. On-prem end-user access > WAN Express Route > Hub vNet > Horizon spoke vNet > Horizon Connection Server
 2. Internet end-user access > vNet NVA > vNet Peering > Horizon vNet > Load Balancer > UAG
 3. Horizon shared services > vNet Peering > Spoke vNet > AD
@@ -50,7 +54,7 @@ Traffic flows:
 
 ### Horizon desktop access Internet directly via AVS
  
-![Horizon AVS Architecture 1](http://drive.google.com/uc?export=view&id=17Hl0-dSJoMI0h_MZaQkOZqhzvubKEtgh)
+![Horizon AVS Architecture 2](http://drive.google.com/uc?export=view&id=1uRBtqmggCjnw8eV3Rluef_yMKRTpgUc8)
 
 AVS Network Connections:
 1. AVS to On-Prem using Express Route Global Reach
@@ -70,6 +74,9 @@ Azure Hub vNet details:
 5. vNet peering connection to Infrastructure shared services vNet
 
 Traffic flows:
+
+![Horizon AVS Flows 2](http://drive.google.com/uc?export=view&id=1Qx4G9YS901cePFJ6lTMakbguNscLYcEL)
+
 1. On-prem end-user access > WAN Express Route > Hub vNet > Horizon spoke vNet > Horizon Connection Server
 2. Internet end-user access > vNet NVA > vNet Peering > Horizon vNet > Load Balancer > UAG
 3. Horizon shared services > vNet Peering > Spoke vNet > AD
