@@ -57,9 +57,10 @@ Traffic flows:
 ![Horizon AVS Architecture 2](http://drive.google.com/uc?export=view&id=1uRBtqmggCjnw8eV3Rluef_yMKRTpgUc8)
 
 AVS Network Connections:
-1. AVS to On-Prem using Express Route Global Reach
-2. AVS to Hub vNet via local Express Route circuit
-3. AVS to Internet directly via NSX Edge Public IP  
+1. On-prem to Azure region using WAN Express Route
+2. AVS to On-Prem using Express Route Global Reach
+3. AVS to Hub vNet via local Express Route circuit
+4. AVS to Internet directly via NSX Edge Public IP  
 
 Azure Network Connections:
 1. On-Prem to Azure region using WAN Express Route terminating in Hub vNet
