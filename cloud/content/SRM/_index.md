@@ -6,8 +6,10 @@ weight: 30
 
 ### Details
 
+- [SRM AVS Install](srm_avs_install)
 - [Application DR using Same IP Architecture Options](srm_hcx_same_ip_architecture)
 - [Application DR and Backup Recovery Architecture](srm_dr_backup_architecture)
+- [Application DR - Lab Demo](srm_dr_functions_demo)
 
 ### References
 - [SRM Documentation](https://docs.vmware.com/en/VMware-Site-Recovery/index.html)
