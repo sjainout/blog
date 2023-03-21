@@ -1,9 +1,14 @@
 ---
 title: "HA, DR, plus Backup Architecture"
 date: 2022-10-26T09:56:17-04:00
-weight: 30
+weight: 20
 TableOfContents: true
 ---
+
+This document covers how the following three options can be used to protect applications: 
+- Application High Availability
+- Disaster Recovery
+- Backup Recovery
 
 ### Steady State
 
